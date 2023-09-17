@@ -1,10 +1,13 @@
 import React from "react";
-import "./Options.css"
+import "./Options.css";
 
 function Options() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:"rgb(0,85,90)",padding:"0%"}} >
-      <div className="container" >
+    <nav
+      className="navbar navbar-expand-lg navbar-light"
+      style={{ backgroundColor: "rgb(0,85,90)", padding: "0%" }}
+    >
+      <div className="container">
         <button
           className="navbar-toggler"
           type="button"
@@ -16,11 +19,12 @@ function Options() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse  justify-content-center"
-          id="navbarNav"  
+        <div
+          className="collapse navbar-collapse  justify-content-center"
+          id="navbarNav"
         >
-          <ul className="navbar-nav"style={{gap:30}} >
-          <li className="nav-item dropdown" >
+          <ul className="navbar-nav" style={{ gap: 30 }}>
+            <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="##"
@@ -30,10 +34,9 @@ function Options() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                
-                <strong >ABOUT US</strong>
+                <strong>ABOUT US</strong>
               </a>
-              
+
               <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
                 <li>
                   <a className="dropdown-item" href="##">
@@ -72,10 +75,9 @@ function Options() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                
                 <strong>PROGRAMS</strong>
               </a>
-              
+
               <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
                 <li>
                   <a className="dropdown-item" href="##">
@@ -114,10 +116,9 @@ function Options() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                
                 <strong>ADMISSION</strong>
               </a>
-              
+
               <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
                 <li>
                   <a className="dropdown-item" href="##">
@@ -156,10 +157,9 @@ function Options() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                
                 <strong>FACULTY</strong>
               </a>
-              
+
               <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
                 <li>
                   <a className="dropdown-item" href="##">
@@ -198,10 +198,9 @@ function Options() {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                
                 <strong>RESEARCH</strong>
               </a>
-              
+
               <ul className="dropdown-menu" aria-labelledby="aboutDropdown">
                 <li>
                   <a className="dropdown-item" href="##">
@@ -231,15 +230,9 @@ function Options() {
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link "
-                href="##"
-              >
-                
+              <a className="nav-link " href="##">
                 <strong>STUDENT LIFE</strong>
               </a>
-              
-           
             </li>
             <li className="nav-item dropdown">
               <a

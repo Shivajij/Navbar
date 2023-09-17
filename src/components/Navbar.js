@@ -15,10 +15,10 @@ function Navbar() {
           program are closed.{" "}
         </p>
       </div>
-      <nav className="navbar navbar-expand-lg bg-white " style={{padding:0}}>
+      <nav className="navbar navbar-expand-lg bg-white " style={{ padding: 0 }}>
         <div className="container">
           <a className="navbar-brand" href="##">
-            <img src={myImg} height={90} width={200} alt="logo"  />
+            <img src={myImg} height={90} width={200} alt="logo" />
           </a>
           <button
             className="navbar-toggler"
@@ -86,7 +86,6 @@ function Navbar() {
               >
                 APPLY NOW
               </button>
-             
             </div>
           </div>
         </div>
