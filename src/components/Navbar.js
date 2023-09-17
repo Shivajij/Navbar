@@ -1,13 +1,13 @@
 import React from "react";
 import Options from "./Options";
-import myImg from "../Demo/plaksha.png";
+import myImg from "../components//plaksha.png";
 
 function Navbar() {
   return (
     <div>
       <div
         className="main"
-        style={{ backgroundColor: "rgb(0,85,90)", padding: 15 }}
+        style={{ backgroundColor: "rgb(0,85,90)", padding: 10 }}
       >
         <p style={{ color: "white", textAlign: "center" }}>
           Sign up for Virtual Chats here. | View Academic Calendar 2023-24 here.
@@ -15,10 +15,10 @@ function Navbar() {
           program are closed.{" "}
         </p>
       </div>
-      <nav className="navbar navbar-expand-lg bg-white">
+      <nav className="navbar navbar-expand-lg bg-white " style={{padding:0}}>
         <div className="container">
           <a className="navbar-brand" href="##">
-            <img src={myImg} height={80} width={200} alt="logo" />
+            <img src={myImg} height={90} width={200} alt="logo"  />
           </a>
           <button
             className="navbar-toggler"
